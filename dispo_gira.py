@@ -29,4 +29,4 @@ df.columns = [col.replace("properties.", "") for col in df.columns]
 
 # Exportar
 from datetime import datetime
-df.to_csv(datetime.now().strftime('data_sources/data_transformed/data_export/gira_disponibilidade_emel_opendata-%Y-%m-%d-%H-%M-%S.csv'), encoding='utf8', index=False)
+df.to_csv(datetime.now().strftime('data_sources/data_export/gira_disponibilidade_emel_opendata-%Y-%m-%d-%H-%M-%S.csv'), encoding='utf8', index=False)
